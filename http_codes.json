@@ -1,0 +1,100 @@
+{
+    "status_codes": {
+        "404": {
+            "name": "Not Found",
+            "image": "https://c.tenor.com/1RyM7ikzraIAAAAM/anime-what.gif"
+        },
+        "200": {
+            "name": "Ok",
+            "image": "https://i.pinimg.com/originals/4d/f5/f3/4df5f321255c7ebef4dc574bdf3018b0.jpg"
+        },
+        "102": {
+            "name": "Processing",
+            "image": "https://pa1.narvii.com/6377/8fd54f5a87043cc3f9192d0d05e579506b2e4223_hq.gif"
+        },
+        "204": {
+            "name": "No Content",
+            "image": "https://i.pinimg.com/originals/9f/13/e3/9f13e3e67e7382a2c9f8db02180d2b61.jpg"
+        },
+        "301": {
+            "name": "Moved Permanently",
+            "image": "https://allanimemag.files.wordpress.com/2020/12/heavens-lost-property-packing-boxes-screenshot-1.png"
+        },
+        "206": {
+            "name": "Partial Content",
+            "image": "https://c.tenor.com/pHht4Q82LscAAAAC/cake-food.gif"
+        },
+        "203": {
+            "name": "Non-Authorative Information",
+            "image": "http://pm1.narvii.com/6291/40c2d61f7440a1dbb21d45f36571ceedf0899edf_00.jpg"
+        },
+        "302": {
+            "name": "Found",
+            "image": "https://i.kym-cdn.com/photos/images/newsfeed/000/730/678/bee.gif"
+        },
+        "308": {
+            "name": "Permanent Redirection",
+            "image": "https://media3.giphy.com/media/XaAUgxOriqslHO69U2/giphy.gif"
+        },
+        "307": {
+            "name": "Temporary Redirection",
+            "image": "https://media3.giphy.com/media/XaAUgxOriqslHO69U2/giphy.gif"
+        },
+        "400": {
+            "name": "Bad Request",
+            "image": "https://c.tenor.com/brI34ue84U0AAAAC/anime-smug-smug.gif"
+        },
+        "402": {
+            "name": "Unauthorized",
+            "image": "https://pbs.twimg.com/media/EoGryrMXEAAC74v.jpg"
+        },
+        "405": {
+            "name": "Method Not Allowed",
+            "image": "https://i.gifer.com/8KWv.gif"
+        },
+        "406": {
+            "name": "Not Acceptable",
+            "image": "https://c.tenor.com/lPVf0QcafhEAAAAC/stop-right-there-buster-nope.gif"
+        },
+        "408": {
+            "name": "Request Timeout",
+            "image": "https://64.media.tumblr.com/39d0f2988bf37dbcbe15e3296cd899b6/d305745d447129dc-5b/s1280x1920/2c5c923836ee66c526a1e9e8c7501cdaf2448657.gif"
+        },
+        "413": {
+            "name": "Payload Too Large",
+            "image": "https://cdn.shopify.com/s/files/1/0318/2649/files/tenor_ef8ea3ac-40cd-42b8-9afd-5ea82e47d745_large.gif?v=1563938313"
+        },
+        "414": {
+            "name": "Request URI Too Large",
+            "image": "https://64.media.tumblr.com/175ac9a42e8122b3d113cb6b175c35a5/tumblr_o47ouv5DoS1s0ifhgo1_500.gif"
+        },
+        "423": {
+            "name": "Locked",
+            "image": "https://c.tenor.com/NbBCakbfZnkAAAAC/die-kill.gif"
+        },
+        "429": {
+            "name": "Too Many Requests",
+            "image": "https://i.kym-cdn.com/photos/images/original/001/291/790/051.gif"
+        },
+        "500": {
+            "name": "Internal Server Error",
+            "image": "https://c.tenor.com/YhvPxE804eEAAAAC/anime-de-panico.gif"
+        },
+        "502": {
+            "name": "Bad Gateway",
+            "image": "https://c.tenor.com/9Ql_VyYvMZkAAAAC/anime-sleeping.gif"
+        },
+        "504": {
+            "name": "Gateway Timeout",
+            "image": "https://c.tenor.com/ULY2-MRkG7IAAAAC/load-loading-gif.gif"
+        },
+        "522": {
+            "name": "Connection Timed Out",
+            "image": "https://c.tenor.com/MYFSAXUCXt4AAAAC/kronii-loading.gif"
+        },
+        "525": {
+            "name": "SSL Handshake Failed",
+            "image": "https://c.tenor.com/4yWFhsgqzfEAAAAC/anime-handshake.gif"
+        }
+    }
+}
