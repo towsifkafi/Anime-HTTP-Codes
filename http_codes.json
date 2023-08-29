@@ -60,6 +60,10 @@
             "name": "Request Timeout",
             "image": "https://64.media.tumblr.com/39d0f2988bf37dbcbe15e3296cd899b6/d305745d447129dc-5b/s1280x1920/2c5c923836ee66c526a1e9e8c7501cdaf2448657.gif"
         },
+        "410": {
+            "name": "Gone",
+            "image": "https://media.tenor.com/1PdUCJWK6LUAAAAC/anime-disappear.gif"
+        },
         "413": {
             "name": "Payload Too Large",
             "image": "https://cdn.shopify.com/s/files/1/0318/2649/files/tenor_ef8ea3ac-40cd-42b8-9afd-5ea82e47d745_large.gif?v=1563938313"
@@ -83,6 +87,10 @@
         "502": {
             "name": "Bad Gateway",
             "image": "https://c.tenor.com/9Ql_VyYvMZkAAAAC/anime-sleeping.gif"
+        },
+        "503": {
+            "name": "Service Unavailable",
+            "image": "https://i0.wp.com/www.live-evil.org/wp-content/uploads/2022/06/sleepy.gif"
         },
         "504": {
             "name": "Gateway Timeout",
