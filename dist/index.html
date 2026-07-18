@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime HTTP Codes</title>
+    <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 2rem;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+}
+
+.image-box {
+    margin-bottom: 2rem;
+}
+
+.image-box img {
+    max-width: 15em;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+/* index */
+body.index-page {
+    display: block;
+    padding: 2rem 1.5rem 3rem;
+}
+
+.index-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    max-width: 720px;
+    margin: 0 auto 2.5rem;
+}
+
+.index-header h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.index-header p {
+    color: #aaa;
+    font-size: 1.1rem;
+}
+
+.index-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.code-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background: #2a2a2a;
+    border: 2px solid #444;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.code-card:hover {
+    border-color: white;
+    transform: translateY(-4px);
+}
+
+.code-card__image {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #1a1a1a;
+}
+
+.code-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.code-card__info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.code-card__code {
+    display: block;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.25rem;
+}
+
+.code-card__name {
+    display: block;
+    font-size: 0.95rem;
+    color: #aaa;
+}</style>
+</head>
+<body class="index-page">
+    <header class="index-header">
+        <div class="info">
+            <h1>Anime HTTP Codes</h1>
+            <p>HTTP status pages with anime images — pick a code to preview.</p>
+        </div>
+        <div class="source">
+            <p>github</p>
+        </div>
+    </header>
+
+    <main class="index-grid">
+        
+        <a href="102.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://media1.tenor.com/m/2QgTA5XJoyUAAAAC/yuru-yuri-anime.gif" alt="Processing" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">102</span>
+                <span class="code-card__name">Processing</span>
+            </div>
+        </a>
+        
+        <a href="200.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://i.pinimg.com/originals/4d/f5/f3/4df5f321255c7ebef4dc574bdf3018b0.jpg" alt="Ok" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">200</span>
+                <span class="code-card__name">Ok</span>
+            </div>
+        </a>
+        
+        <a href="203.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://media1.tenor.com/m/ugSgrwvJ_AYAAAAC/ranma-shampoo.gif" alt="Non-Authorative Information" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">203</span>
+                <span class="code-card__name">Non-Authorative Information</span>
+            </div>
+        </a>
+        
+        <a href="204.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://media1.tenor.com/m/NAICdnA_ngYAAAAC/night-and-day.gif" alt="No Content" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">204</span>
+                <span class="code-card__name">No Content</span>
+            </div>
+        </a>
+        
+        <a href="206.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/pHht4Q82LscAAAAC/cake-food.gif" alt="Partial Content" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">206</span>
+                <span class="code-card__name">Partial Content</span>
+            </div>
+        </a>
+        
+        <a href="301.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://allanimemag.files.wordpress.com/2020/12/heavens-lost-property-packing-boxes-screenshot-1.png" alt="Moved Permanently" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">301</span>
+                <span class="code-card__name">Moved Permanently</span>
+            </div>
+        </a>
+        
+        <a href="302.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://i.kym-cdn.com/photos/images/newsfeed/000/730/678/bee.gif" alt="Found" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">302</span>
+                <span class="code-card__name">Found</span>
+            </div>
+        </a>
+        
+        <a href="304.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://media1.tenor.com/m/or1WHbALpEIAAAAC/kill-me-baby-yasuna.gif" alt="Not Modified" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">304</span>
+                <span class="code-card__name">Not Modified</span>
+            </div>
+        </a>
+        
+        <a href="307.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://media1.tenor.com/m/V6TMPyQEsAsAAAAC/anime-naruto.gif" alt="Temporary Redirection" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">307</span>
+                <span class="code-card__name">Temporary Redirection</span>
+            </div>
+        </a>
+        
+        <a href="308.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://media3.giphy.com/media/XaAUgxOriqslHO69U2/giphy.gif" alt="Permanent Redirection" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">308</span>
+                <span class="code-card__name">Permanent Redirection</span>
+            </div>
+        </a>
+        
+        <a href="400.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/brI34ue84U0AAAAC/anime-smug-smug.gif" alt="Bad Request" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">400</span>
+                <span class="code-card__name">Bad Request</span>
+            </div>
+        </a>
+        
+        <a href="401.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://pbs.twimg.com/media/EoGryrMXEAAC74v.jpg" alt="Unauthorized" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">401</span>
+                <span class="code-card__name">Unauthorized</span>
+            </div>
+        </a>
+        
+        <a href="402.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://media1.tenor.com/m/VnZiBdemf9UAAAAC/watashi-ni-tenshi-money.gif" alt="Payment Required" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">402</span>
+                <span class="code-card__name">Payment Required</span>
+            </div>
+        </a>
+        
+        <a href="403.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://media1.tenor.com/m/vYKBcl-EwKgAAAAC/shiroi-suna-no-aquatope-the-aquatope-on-white-sand.gif" alt="Forbidden" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">403</span>
+                <span class="code-card__name">Forbidden</span>
+            </div>
+        </a>
+        
+        <a href="404.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/1RyM7ikzraIAAAAM/anime-what.gif" alt="Not Found" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">404</span>
+                <span class="code-card__name">Not Found</span>
+            </div>
+        </a>
+        
+        <a href="405.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://i.gifer.com/8KWv.gif" alt="Method Not Allowed" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">405</span>
+                <span class="code-card__name">Method Not Allowed</span>
+            </div>
+        </a>
+        
+        <a href="406.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/lPVf0QcafhEAAAAC/stop-right-there-buster-nope.gif" alt="Not Acceptable" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">406</span>
+                <span class="code-card__name">Not Acceptable</span>
+            </div>
+        </a>
+        
+        <a href="408.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://64.media.tumblr.com/39d0f2988bf37dbcbe15e3296cd899b6/d305745d447129dc-5b/s1280x1920/2c5c923836ee66c526a1e9e8c7501cdaf2448657.gif" alt="Request Timeout" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">408</span>
+                <span class="code-card__name">Request Timeout</span>
+            </div>
+        </a>
+        
+        <a href="410.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://media.tenor.com/1PdUCJWK6LUAAAAC/anime-disappear.gif" alt="Gone" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">410</span>
+                <span class="code-card__name">Gone</span>
+            </div>
+        </a>
+        
+        <a href="413.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://cdn.shopify.com/s/files/1/0318/2649/files/tenor_ef8ea3ac-40cd-42b8-9afd-5ea82e47d745_large.gif?v=1563938313" alt="Payload Too Large" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">413</span>
+                <span class="code-card__name">Payload Too Large</span>
+            </div>
+        </a>
+        
+        <a href="414.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://64.media.tumblr.com/175ac9a42e8122b3d113cb6b175c35a5/tumblr_o47ouv5DoS1s0ifhgo1_500.gif" alt="Request URI Too Large" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">414</span>
+                <span class="code-card__name">Request URI Too Large</span>
+            </div>
+        </a>
+        
+        <a href="423.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/NbBCakbfZnkAAAAC/die-kill.gif" alt="Locked" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">423</span>
+                <span class="code-card__name">Locked</span>
+            </div>
+        </a>
+        
+        <a href="429.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://i.kym-cdn.com/photos/images/original/001/291/790/051.gif" alt="Too Many Requests" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">429</span>
+                <span class="code-card__name">Too Many Requests</span>
+            </div>
+        </a>
+        
+        <a href="500.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/YhvPxE804eEAAAAC/anime-de-panico.gif" alt="Internal Server Error" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">500</span>
+                <span class="code-card__name">Internal Server Error</span>
+            </div>
+        </a>
+        
+        <a href="502.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/9Ql_VyYvMZkAAAAC/anime-sleeping.gif" alt="Bad Gateway" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">502</span>
+                <span class="code-card__name">Bad Gateway</span>
+            </div>
+        </a>
+        
+        <a href="503.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://i0.wp.com/www.live-evil.org/wp-content/uploads/2022/06/sleepy.gif" alt="Service Unavailable" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">503</span>
+                <span class="code-card__name">Service Unavailable</span>
+            </div>
+        </a>
+        
+        <a href="504.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/ULY2-MRkG7IAAAAC/load-loading-gif.gif" alt="Gateway Timeout" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">504</span>
+                <span class="code-card__name">Gateway Timeout</span>
+            </div>
+        </a>
+        
+        <a href="522.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/MYFSAXUCXt4AAAAC/kronii-loading.gif" alt="Connection Timed Out" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">522</span>
+                <span class="code-card__name">Connection Timed Out</span>
+            </div>
+        </a>
+        
+        <a href="525.html" class="code-card">
+            <div class="code-card__image">
+                <img src="https://c.tenor.com/4yWFhsgqzfEAAAAC/anime-handshake.gif" alt="SSL Handshake Failed" loading="lazy" />
+            </div>
+            <div class="code-card__info">
+                <span class="code-card__code">525</span>
+                <span class="code-card__name">SSL Handshake Failed</span>
+            </div>
+        </a>
+        
+    </main>
+</body>
+</html>
